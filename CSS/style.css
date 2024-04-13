@@ -34,6 +34,7 @@ header {
     text-decoration: none;
     color: #C9961A;
     transition: color 0.2s ease-in-out;
+    font-size: 1.3rem; /* reveer si convien 1.2 o 1.5 cambiar en el media tambien*/
 }
 
 .nav-list li a:hover {
@@ -51,7 +52,7 @@ header {
 .cerrar-menu {
     display: block;
     border: 0;
-    font-size: 1.50rem;
+    font-size: 1.3rem;
     background-color: transparent;
     cursor: pointer;
 }
