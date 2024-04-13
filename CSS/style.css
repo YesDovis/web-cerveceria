@@ -48,7 +48,6 @@ header {
 
 @media screen and (max-width: 550px) {
 
-.abrir-menu,
 .cerrar-menu {
     display: block;
     border: 0;
