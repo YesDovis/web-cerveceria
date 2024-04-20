@@ -160,13 +160,22 @@ header {
 
 /*--------------------  cards ---------------------------*/  
 
-#nuestros-estilos .estilos{
+#nuestros-estilos{
     display: flex;
     justify-content: center;
+    color: white;
+    text-align: center;
 }
-
-    ·nuestros-estilos p{
+#nuestros-estilos h2{
+    display: block;
+    margin-top: 0px;
+    background-color: #af7d00;
+    color: #000000;
+}
+#nuestros-estilos p{
         display:block;
+        margin: auto;
+        padding: 10px;
     }
 
 
