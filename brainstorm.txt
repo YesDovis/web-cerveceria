@@ -1,5 +1,6 @@
-* linkear los html 
-* linkear el lohgo al home
+
+BOTONES : colores base #C9961A  hover #f9d67f
+
 
 *************************************
 Nuestros estilos:
@@ -30,15 +31,6 @@ de la malta.
 temperaturas, tiene cuerpo seco, con presencia de notas 
 afrutadas pero moderadas y con ligero dulzor al final de cada sorbo. Su carbonatación es de media a alta.
 
-<img> KOLSCH 
-<P> 
-
-<img>  
-<P> 
-
-<img> LAGER 
-<P> 
-<img> LAGER 
-<P> 
+MAS ETILOS SARAZA 
 
 
