@@ -16,9 +16,7 @@ body {
 }
 
 /*si cambiamos la fuente reveer los tamaños*/
-h1 {font-size: 3em;}
-h2 {font-size: 2.7em;}
-h3 { font-size: 2em;}
+h1 {font-size: 3em;} 
 p{font-size: 1.25;}
 
 button{
@@ -153,37 +151,35 @@ header {
     background-position: center center; /*centra imagen siempre a contenedor */
 }
 
-#banner-estilos-cerveza h1{
-        color: white;
-        font-size: 2em;
-}
-
 /*--------------------  cards ---------------------------*/  
 
-#nuestros-estilos{
-    display: flex;
+#nuestros-estilos .container-cartas{
+    display: block;
     justify-content: center;
-    color: white;
     text-align: center;
 }
 #nuestros-estilos h2{
     display: block;
-    margin-top: 0px;
+    text-align: center;
+    margin-top: 10px;
     background-color: #af7d00;
     color: #000000;
 }
+
+#nuestros-estilos h3{
+    margin-top: 0;
+    color: white;
+}
+
 #nuestros-estilos p{
-        display:block;
-        margin: auto;
-        padding: 10px;
-    }
-
-
+    margin: bottom 30px;
+    color: white;
+}
 #nuestros-estilos .carta{
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
-    margin: 10px;
+    margin: 30px;
     border-radius: 20px;
 }
 
@@ -216,5 +212,32 @@ header {
 
 }
 
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/img/cerveza-estilo-IPA-servida-en-copa-cervecera.jpg");
 
+}
 
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/img/cerveza-estilo-IPA-servida-en-copa-cervecera.jpg");
+
+}
+
+.carta:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/img/cerveza-estilo-IPA-servida-en-copa-cervecera.jpg");
+
+}
