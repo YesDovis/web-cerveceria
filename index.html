@@ -10,24 +10,24 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<body> <!--MENU DE NAVEGACION-->
+<body> <!-----------------------MENU DE NAVEGACION YESY----------------------------->
     <header id="cabecera">
         <img class="logo" src="./img/logo.png" alt="Logo">
         <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
         <nav class="nav" id="nav">
             <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
             <ul class="nav-list">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="quienes_somos.html">Quiénes somos</a></li>
-                <li><a href="nuestros_estilos.html">Nuestros Estilos</a></li>
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#quienes-somos">Quiénes somos</a></li>
+                <li><a href="index.html#nuestros-estilos">Nuestros Estilos</a></li>
                 <li><a href="tienda.html">Tienda</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
         <section id="banner-cerveza">
             <div class="info-banner">
-                <h2>Visita nuestros laboratorio de Cervezas<br>Descubrenos!</h2>
+                <h2>Visita nuestro laboratorio de Cervezas<br>Descubrenos!</h2>
                     <form action=""> <!--agrear el link de la tienda-->
                     <button>Quiero mas Info</button>
                     </form>
@@ -35,9 +35,14 @@
         </section>
     <!--CODIGO DE FACUNDO -->
     <section id="quienes-somos">
-        <div class="container">
+        <div class="container-quienes">
             <h2>Quienes somos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vel facilis laudantium cum, possimus cupiditate. Error distinctio ad facilis sequi, est quaerat velit, soluta, rem fugit architecto praesentium impedit sunt!</p>
+            <p>En La Birra es Bella, nos enorgullece nuestra historia de pasión por la cerveza. Fundada en el corazón de la ciudad, nuestra cervecería ha crecido para convertirse en un referente en la escena cervecera local. Nuestro equipo está compuesto por apasionados cerveceros y entusiastas del buen sabor, comprometidos a ofrecer la mejor experiencia cervecera a nuestros clientes.</p>
+            <br>
+            <p>Nuestra misión es crear cervezas excepcionales que deleiten el paladar y fomenten momentos de disfrute y camaradería. Nos esforzamos por innovar y mejorar continuamente, manteniendo siempre los más altos estándares de calidad en cada etapa de nuestro proceso de producción.</p>
+        </div>
+        </div>
+    </section>       
     <!--CODIGO DE YESY-->
     <section id="nuestros-estilos">
         <div class="container">
@@ -88,7 +93,58 @@
             </div>
         </div>
     </section>
-<!---CODIGO DE CELESTE FORMULARIO CON VALIDACION -->
+    <!---------------------CODIGO DE CELESTE FORMULARIO CON VALIDACION -->
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Estamos aquí para responder cualquier pregunta que puedas tener sobre nuestras cervezas, eventos, o cualquier otro tema relacionado con La Birra es Bella. No dudes en ponerte en contacto con nosotros.</p>
+            <p>Puedes enviarnos un correo electrónico a <a href="mailto:info@labirraesbella.com">info@labirraesbella.com</a> o llamarnos al +123456</p>
+        </div>
+    </section>
+    <!-------------------------------FOOTER YESY-------------------------------->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+            <h2 class="footer-title">DONDE ESTAMOS?</h2>
+            <p>Uspallata 3150, C1437JCJ </p>
+            <p>Cdad. Autónoma de Buenos Aires</p>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h2 class="footer-title">CONTACTANOS</h2>
+            <ul class="footer-social-list">
+            <li class="footer-social-item">
+            <a href="#" class="footer-social-link">
+            <i class=""></i>
+            </a>
+            </li>
+            <li class="footer-social-item">
+            <a href="#" class="footer-social-link">
+                <i class=""></i>
+            </a>
+            </li>
+            <li class="footer-social-item">
+                <a href="#" class="footer-social-link">
+                <i class=""></i>
+                </a>
+            </li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h2 class="footer-title">La birra es bella</h2>
+            <p class="footer-text">Cervezas hay para todos los gustos y para 
+                cualquier momento. Lager para un día caluroso o una buena Porter para la 
+                carne asada. Si no sabes que escoger,te asesoramos. 
+                No dudes en consultarnos!!</p>
+        </div>
+        </div>
+
+        <div class="footer-copyright">
+        <p class="footer-copyright-text">&copy; || 2024 || Equipo 17 PYTHON-FRONTEND || 24188 ||.</p>
+        </div>
+    </footer>
     <script src="./JS/index.js"></script>
 </body>
 </html> 
