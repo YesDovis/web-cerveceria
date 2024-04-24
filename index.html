@@ -21,7 +21,7 @@
                 <li><a href="index.html#quienes-somos">Quiénes somos</a></li>
                 <li><a href="index.html#nuestros-estilos">Nuestros Estilos</a></li>
                 <li><a href="tienda.html">Tienda</a></li>
-                <li><a href="index.html#contacto">Contacto</a></li>
+                <li><a href="index.html#formulario-contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -33,7 +33,7 @@
                     </form>
             </div>
         </section>
-    <!--CODIGO DE FACUNDO -->
+<!-------------CODIGO DE FACUNDO -------------------------------------------------->
     <section id="quienes-somos">
         <div class="container-quienes">
             <h2>Quienes somos</h2>
@@ -43,7 +43,7 @@
         </div>
         </div>
     </section>       
-    <!--CODIGO DE YESY-->
+<!----------------CODIGO DE YESY------------------------------------------->
     <section id="nuestros-estilos">
         <div class="container">
             <h2>Nuestros Estilos</h2>
@@ -52,7 +52,7 @@
                     <h3>Magica Lager</h3>
                     <p>Cerveza de color dorado claro brillante, muy refrescante que hasta quita la sed, con espuma muy blanca con poca retención, un estilo muy balanceado, suave pero con carácter para beber muy fácil.Su sabor es limpio.</p>
                     <form action=""> <!--agrear el link de la tienda-->
-                        <button>La Necesito!</button>
+                        <button>Me dio sed!</button>
                     </form>
                 </div>
                 <div class="carta">
@@ -64,10 +64,10 @@
                 </div>
                 <div class="carta">
                     <h3>Locura IPA</h3>
-                    <p>Cerveza de color pálido a dorado muy claro, con poca espuma cremosa blanca, de cuerpo ligero y moderadamente amarga, refrescante con un ligero aroma dulce como la miel pero herbal.</p>
-                    <form action=""> <!--agrear el link del producto de la tienda-->
+                    <p>Cerveza de color turbio dorado inpenetrable a la mirada, con una espuma cremosa blanca, de gran cuerpo y violento amargor, refrescante con un aroma predominante citrico pero herbal,para valientes.</p>
+                    <form action=""> <!--agrear el link del productode la tienda-->
                         <button>Me dio sed!</button>
-                    </form>               
+                    </form>            
                 </div>
                 <div class="carta">
                     <h3>Harry Porter</h3>
@@ -93,15 +93,41 @@
             </div>
         </div>
     </section>
-    <!---------------------CODIGO DE CELESTE FORMULARIO CON VALIDACION -->
-    <section id="contacto">
-        <div class="container">
-            <h2>Contacto</h2>
-            <p>Estamos aquí para responder cualquier pregunta que puedas tener sobre nuestras cervezas, eventos, o cualquier otro tema relacionado con La Birra es Bella. No dudes en ponerte en contacto con nosotros.</p>
-            <p>Puedes enviarnos un correo electrónico a <a href="mailto:info@labirraesbella.com">info@labirraesbella.com</a> o llamarnos al +123456</p>
-        </div>
-    </section>
-    <!-------------------------------FOOTER YESY-------------------------------->
+</div>
+<!---------------------CODIGO DE CELESTE FORMULARIO CON VALIDACION -->
+<section id="formulario-contacto">
+    <h3 class="titulo-seccion">Contactanos!</h3>
+    <div class="contenedor-formulario">
+        <form action="">
+            <div class="datos">
+                <input type="text" placeholder="Nombre y Apellido" class="input-mitad">
+                <input type="text" placeholder="Email" class="input-mitad">            
+            </div>
+            <div class="consulta-usuario">
+                <input type="text" placeholder="Tipo Consulta..." class="input-full">
+            </div>
+            <div class="checkboxes">
+                <div>
+                    <input type="checkbox" id="soy-mayor">
+                    <label for="soy-mayor">Soy mayor</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="soy-menor">
+                    <label for="soy-menor">Soy menor</label>
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje ..." class="input-full"></textarea>
+            </div>
+            <input type="submit" value="Enviar" class="boton-enviar">
+        </form>
+    </div>
+    <div class="contenedor-mapa">
+        <!-- Contenido del mapa de Google Maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.560252500462!2d-58.409777524325015!3d-34.640551459444225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb0de996fa65%3A0x47296bd9e98ee2ad!2sUspallata%203150%2C%20C1437JCJ%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1713921578348!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></>" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</section>
+<!-------------------------------FOOTER YESY-------------------------------->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">

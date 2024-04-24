@@ -156,7 +156,7 @@ header {
     background-color: #af7d00;
 }
 #quienes-somos p, h2{
-    margin-left: 20px;
+    margin-left: 20 30px;
     text-align: center;}
 /*-------------------- ----Inicio CARTAS ----------------------*/  
 
@@ -175,8 +175,9 @@ header {
 }
 
 #nuestros-estilos h3{
-    margin-top: 0;
-    color: white;
+    font-size: 1.5em;
+    margin: 20px;
+    color: #f4c242;
 }
 
 #nuestros-estilos p{
@@ -190,7 +191,7 @@ header {
     flex-direction: column;
     background-position: center center;
     background-size: cover;
-    padding: 50px 0px;
+    padding: 50px 50px;
     margin: 30px;
     border-radius: 20px;
 }
@@ -255,14 +256,59 @@ header {
 
 /*-------------------------------Inicio Contacto ------------------------*/
 
-#contacto {
-    height: 600px;
-    background-color: #af7d00;
+.contenedor-formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #585858;
+    border-radius: 10px;
 }
-#contacto p, h2{
-    margin-left: 20px;
-    text-align: center;}
 
+.titulo-seccion {
+    text-align: center; 
+    font-size: 2em; 
+    color: #af7d00; 
+    margin-bottom: 25px;
+    text-transform: uppercase; 
+}
+
+
+input[type="text"],textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.boton-enviar {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: #af7d00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* Estilos para hacer el formulario responsivo en dispositivos móviles */
+@media (max-width: 550px) {
+    .contenedor-formulario {
+    padding: 10px;
+    }
+}
 
 
 
