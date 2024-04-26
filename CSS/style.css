@@ -151,13 +151,95 @@ header {
     font-size: 3em;
 }
 /*------------------------- Inicio Quienes Somos -------------------*/
-#quienes-somos {
+/* #quienes-somos {
     height: 600px;
     background-color: #af7d00;
 }
 #quienes-somos p, h2{
     margin-left: 20 30px;
+    text-align: center;} */
+
+/* ############### QUIENES SOMOS FACUNDO DESDE ACA ############### */
+
+#quienes-somos{
+    background-color: #af7d00;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+#quienes-somos p, h2{
+    margin-left: 20px;
     text-align: center;}
+
+.qs-container-cards{
+    background-color: #af7d00;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}    
+
+.qs-card{
+    width: 300px;
+    background-color: rgb(27, 26, 26);
+    border-radius: 8px;
+    border-radius: 1rem;
+    border: 2px solid black;
+    overflow: hidden;
+    margin: 10px;
+    transition: 0.2s ease;
+}
+
+a{
+    color: grey;
+}
+
+.qs-card:hover{
+    background-color: rgb(44, 43, 43);
+    border: 2px solid #C9961A;
+    
+}
+
+.qs-card img{
+    width: 100%;
+    height: auto;
+}
+
+
+.qs-text{
+    padding: 16px;
+}
+
+.qs-text h3{
+    color: #C9961A;
+    font-size: 2em;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.qs-text h4{
+    color: #C9961A;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.qs-text p{
+    color: #f9d67f;
+    line-height: 1.3;
+    text-align: center;
+}
+
+/* ############### QUIENES SOMOS FACUNDO HASTA ACA ############### */
+
+
+
+
+
+
 /*-------------------- ----Inicio CARTAS ----------------------*/  
 
 #nuestros-estilos .container-cartas{/*contenedor de las cartas*/
