@@ -264,7 +264,7 @@ header {
     padding: 30px;
 }
 .contenedor-general {
-    background-image: linear-gradient(to right, rgba(206, 151, 0, 0.7) 0%, rgba(100, 0, 0, 0) 100%);
+    background-color: #af7d00;
 }
 
 .contenedor-formulario {
@@ -353,7 +353,7 @@ input[type="text"],textarea {
 
 .footer-column {
     width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-title {
