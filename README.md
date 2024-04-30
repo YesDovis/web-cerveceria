@@ -54,7 +54,12 @@ de contacto.
   ● La fecha de entrega del proyecto informada por el Instructor clase 22  semana Mayo 13 / 15 Prewiev  Entrega Final 20/05 al 22/05
 
 **Criterios de evaluación** 
-
+<ul class="contains-task-list">
+  <li class="task-list-item"><input type="checkbox" disabled="" checked="checked">El sitio web debe poseer al menos 4 páginas HTML o 4 secciones
+  si se trata de un sitio One Page.</li>
+  <li class="task-list-item"><input type="checkbox" disabled=""> Segunda tarea</li>
+  <li class="task-list-item"><input type="checkbox" disabled=""> Tercera tarea</li>
+</ul>
 - [x]El sitio web debe poseer al menos 4 páginas HTML o 4 secciones
      si se trata de un sitio One Page. 
 
