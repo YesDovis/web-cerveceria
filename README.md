@@ -1,18 +1,19 @@
-<img src="/img/logo.png" alt="Descripción de la imagen" style="display: block; margin-left: auto; margin-right: auto;">
+<div aling="center">
+    <img src="/img/logo.png">
+</div>
 
 # Descripción del Proyecto:
 
   ● Descripción: Creación de un sitio web Informativo &  permitir a los usuarios agregar, modificar o eliminar productos de su selección antes de realizar el pago.
 
-- Tecnologías utilizadas para desarrollar un proyecto utilizando HTML, CSS, JavaScript y Bootstrap:
+# Tecnologías utilizadas para desarrollar un proyecto utilizando HTML, CSS, JavaScript y Bootstrap:
 1. HTML: El Lenguaje Base para Estructurar el Contenido.
 2. CSS: Diseñando la Apariencia Visual
 3. JavaScript: Añadiendo Interactividad y Dinamismo.
 4. Bootstrap: Un Marco de Trabajo para un Desarrollo Rápido y Sencillo En el formulario de      contacto.
-  
+
 ## Fortaleciendo nuestra presencia en línea:
-Público Objetivo:
-● Público: Amantes del lupulo y nuevos interesados.
+Público Objetivo: :beer: Amantes del lupulo y nuevos interesados :beer:
 
 ### Estructura del Sitio:
 ● Inicio
@@ -53,10 +54,10 @@ de contacto.
 ### Fecha de Entrega:
   ● La fecha de entrega del proyecto informada por el Instructor clase 22  semana Mayo 13 / 15 Prewiev  Entrega Final 20/05 al 22/05
 
-**Criterios de evaluación** 
+## Criterios de evaluación
 
 - [x] El sitio web debe poseer al menos 4 páginas HTML o 4 secciones
-  si se trata de un sitio One Page.</li>
+  si se trata de un sitio One Page.
 
 - [x] El sitio web debe poseer al menos 4 páginas HTML o 4 secciones
      si se trata de un sitio One Page. 
