@@ -1,6 +1,6 @@
-                        # "La Birra es bella "
-<img src="/img/logo.png">
-Descripción del Proyecto:
+<img src="/img/logo.png" alt="Descripción de la imagen" style="display: block; margin-left: auto; margin-right: auto;">
+
+# Descripción del Proyecto:
 
   ● Descripción: Creación de un sitio web Informativo &  permitir a los usuarios agregar, modificar o eliminar productos de su selección antes de realizar el pago.
 
